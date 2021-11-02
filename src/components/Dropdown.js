@@ -13,6 +13,7 @@ function Dropdown() {
       <ul
         onClick={handleClick}
         style={{
+          zIndex: '1',
           borderRadius: '5px',
           fontSize: '1rem',
           width: '44rem',
@@ -26,7 +27,7 @@ function Dropdown() {
         <Row style={{ paddingLeft: '2rem', paddingTop: '2rem' }}>
           <Col xs={4}>
             <div>
-              <Link to='/product/3d'>3D/VR/AR</Link>
+              <Link to='/product'>3D/VR/AR</Link>
             </div>
             <div>
               <Link to='/product/od'>Object Detection</Link>
